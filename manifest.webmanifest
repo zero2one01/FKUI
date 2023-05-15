@@ -3,7 +3,7 @@
   "short_name": "App",
   "description": "Query/Edit&more for fk-staff",
   "scope": "./",
-  "start_url": "./main.html",
+  "start_url": "./app.html",
   "background_color": "black",
   "theme_color": "black",
   "display": "standalone", 
