@@ -1,0 +1,17 @@
+{
+  "name": "PWA",
+  "short_name": "PWA",
+  "description": "Progressive Web App",
+  "scope": "/PWA/",
+  "start_url": "/PWA/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone", 
+  "icons": [
+      {
+        "src": "./img/icon.png",
+        "type": "image/png",
+        "sizes": "700x700"
+      }
+  ]
+}
