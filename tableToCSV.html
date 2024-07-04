@@ -1,0 +1,605 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  <title>Florida Colleges with Tennis</title>
+<style>
+td { font-size:small; white-space: nowrap;}
+table tr:hover td { background-color: #dddddd; }
+table th:hover { cursor: pointer; cursor: hand; }
+table, th, td
+{
+border: 1px solid black;
+border-collapse:collapse;
+}
+</style>
+  </head>
+<body style="background-color:#FFFF66">
+
+<p>The following is a list of Florida collegiate tennis teams. You will find both men and women's teams. 
+<br/>NOTE - click on the column headings to sort the list.</p>
+  <table border="1" class="sortable" id="tentab">
+    <button onclick="getTable()">GetTable</button>
+  <thead>
+   <tr>
+    <th > Team</th >
+    <th > City</th >
+    <th > Div</th >
+    <th > Conference</th >
+    <th class="unsortable"> WOMEN</th >
+    <th > On Roster</th >
+    <th > # Seniors</th >
+    <th > Head Coach</th >
+    <th class="unsortable"> MEN</th >
+    <th > On Roster</th >
+    <th > # Seniors</th >
+    <th > Head Coach</th >
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+    <td ><a href="http://www.avemaria.edu/"> Ave Maria University</a></td >
+    <td > Ave Maria</td >
+    <td > NAIA</td >
+    <td ><a href="http://www.thesunconference.com/">   The Sun</a></td >
+    <td ><a href="http://www.avemariagyrenes.com/index.aspx?tab=tennis2&amp;path=wten">  Women's Tennis</a></td >
+    <td > 9</td >
+    <td > 2</td >
+    <td ><a href="http://www.avemariagyrenes.com/coaches.aspx?rc=23&amp;path=wten">  Barrett Elkins</a></td >
+    <td ><a href="http://www.avemariagyrenes.com/index.aspx?tab=tennis&amp;path=mten">  Men's Tennis</a></td >
+    <td > 8</td >
+    <td > 0</td >
+    <td ><a href="http://www.avemariagyrenes.com/coaches.aspx?rc=21&amp;path=mten">  Barrett Elkins</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.barry.edu/"> Barry University</a></td >
+    <td > Miami Shores</td >
+    <td > D2</td >
+    <td ><a href="http://www.sunshinestateconference.com/">  Sunshine State</a></td >
+    <td ><a href="http://www.barry.edu/athletics/tennis/women/"> Women's Tennis</a></td >
+    <td > 7</td >
+    <td > 1</td >
+    <td ><a href="http://www.barry.edu/athletics/tennis/women/roster/profile.html?type=coach&amp;id=17"> Avi Kigel</a></td >
+    <td ><a href="http://www.barry.edu/athletics/tennis/men/"> Men's Tennis</a></td >
+    <td > 11</td >
+    <td > 1</td >
+    <td ><a href="http://www.barry.edu/athletics/tennis/men/roster/profile.html?type=coach&amp;id=19"> Dr. George Samuel</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.cookman.edu/"> Bethune-Cookman College</a></td >
+    <td > Daytona Beach</td >
+    <td > D1</td >
+    <td ><a href="http://www.meacsports.com/">  Mid-Eastern</a></td >
+    <td ><a href="http://www.bcuathletics.com/SportSelect.dbml?DB_OEM_ID=23910&amp;SPID=104211&amp;SPSID=659219"> Women's Tennis</a></td >
+    <td > 5</td >
+    <td > 1</td >
+    <td ><a href="http://www.bcuathletics.com/ViewArticle.dbml?SPSID=659216&amp;SPID=104210&amp;DB_LANG=C&amp;DB_OEM_ID=23910&amp;ATCLID=205433334&amp;Q_SEASON=2012"> Tim Pleasant</a></td >
+    <td ><a href="http://www.bcuathletics.com/SportSelect.dbml?&amp;DB_OEM_ID=23910&amp;SPID=104210&amp;SPSID=659210">  Men's Tennis</a></td >
+    <td > 9</td >
+    <td > 0</td >
+    <td ><a href="http://www.bcuathletics.com/ViewArticle.dbml?SPSID=659216&amp;SPID=104210&amp;DB_LANG=C&amp;DB_OEM_ID=23910&amp;ATCLID=205433334&amp;Q_SEASON=2012"> Tim Pleasant</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.broward.edu/"> Broward College</a></td >
+    <td > Fort Lauderdale</td >
+    <td > NCJAA</td >
+    <td>&nbsp;</td>
+    <td ><a href="https://www.broward.edu/athletics/tennis/index.jsp">  Women's Tennis</a></td >
+    <td > 7</td >
+    <td > 0</td >
+    <td ><a href="https://www.broward.edu/athletics/tennis/players.jsp"> Marlena Hall</a></td >
+    <td > None</td >
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+   </tr>
+   <tr>
+    <td ><a href="http://www.eckerd.edu/"> Eckerd College</a></td>
+    <td > Tampa</td >
+    <td > D2</td >
+    <td ><a href="http://www.sunshinestateconference.com/"> Sunshine State</a></td >
+    <td ><a href="http://www.eckerdtritons.com/index.aspx?path=wten"> Women's Tennis</a></td >
+    <td > 10</td >
+    <td > 4</td >
+    <td ><a href="http://www.eckerdtritons.com/coaches.aspx?rc=140&amp;path=wten">  Erin Koenig</a></td >
+    <td ><a href="http://www.eckerdtritons.com/index.aspx?path=mten&amp;tab=0"> Men's Tennis</a></td >
+    <td > 13</td >
+    <td > 2</td >
+    <td ><a href="http://www.eckerdtritons.com/coaches.aspx?rc=140&amp;path=wten"> Erin Koenig</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.erau.edu/"> Embry-Riddle</a></td >
+    <td > Daytona Beach</td >
+    <td > NAIA</td >
+    <td ><a href="http://www.thesunconference.com/">  The Sun</a></td >
+    <td ><a href="http://daytona.embryriddlesports.com/index.aspx?path=wten"> Women's Tennis</a></td >
+    <td > 10</td >
+    <td > 4</td >
+    <td ><a href="http://daytona.embryriddlesports.com/coaches.aspx?rc=300&amp;path=wten"> David Paschal</a></td >
+    <td ><a href="http://daytona.embryriddlesports.com/index.aspx?path=mten&amp;tab=menstennis2"> Men's Tennis</a></td >
+    <td > 7</td >
+    <td > 2</td >
+    <td ><a href="http://daytona.embryriddlesports.com/coaches.aspx?rc=300&amp;path=wten"> David Paschal</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.flagler.edu/"> Flagler College</a></td>
+    <td > Saint Augustine</td >
+    <td > D2</td >
+    <td ><a href="http://www.gulfsouthconference.org/"> Gulf South</a></td >
+    <td ><a href="http://athletics.flagler.edu/index.aspx?tab=_tennis&amp;path=wten"> Women's Tennis</a></td >
+    <td > 8</td >
+    <td > 3</td >
+    <td ><a href="http://athletics.flagler.edu/coaches.aspx?rc=254&amp;path=wten">  Walter Shinn</a></td >
+    <td ><a href="http://athletics.flagler.edu/index.aspx?tab=tennis&amp;path=mten"> Men's Tennis</a></td >
+    <td > 9</td >
+    <td > 2</td >
+    <td ><a href="http://athletics.flagler.edu/coaches.aspx?rc=254&amp;path=wten"> Walter Shinn</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.fau.edu/"> Florida Atlantic University (FAU)</a></td >
+    <td > Boca Raton</td >
+    <td > D1</td >
+    <td ><a href="http://www.sunbeltsports.org/"> Sunbelt</a></td >
+    <td ><a href="http://www.fausports.com/sports/w-tennis/fau-w-tennis-body.html">Women's Tennis</a></td >
+    <td > 9</td >
+    <td > 3</td >
+    <td ><a href="http://onlyfans.cstv.com/schools/fau/sports/w-tennis/mtt/horacava_marcy00.html"> Marcy Hora-Cava</a></td >
+    <td ><a href="http://www.fausports.com/sports/m-tennis/fau-m-tennis-body.html"> Men's Tennis</a></td >
+    <td > 9</td >
+    <td > 1</td >
+    <td ><a href="http://onlyfans.cstv.com/schools/fau/sports/m-tennis/mtt/stokes_brandon00.html"> Brandon Stokes</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.fgcu.edu/"> Florida Gulf Coast University</a></td>
+    <td > Fort Myers</td >
+    <td > D1</td >
+    <td ><a href="http://www.atlanticsun.org/">    Atlantic Sun</a></td >
+    <td ><a href="http://www.fgcuathletics.com/wtennis/">    Women's Tennis</a></td >
+    <td > 8</td >
+    <td > 0</td >
+    <td ><a href="http://www.fgcuathletics.com/wtennis/roster/2012-13/2705/jennifer-gabou/"> Jennifer Gabou</a></td >
+    <td ><a href="http://www.fgcuathletics.com/mtennis/">    Men's Tennis</a></td >
+    <td > 10</td >
+    <td > 2</td >
+    <td ><a href="http://www.fgcuathletics.com/mtennis/roster/2012-13/2704/cj-weber/"> C.J. Weber</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.famu.edu/"> Florida Agricultural and Mechanical University (FAMU)</a></td >
+    <td > Tallahassee</td >
+    <td > D1</td >
+    <td ><a href="http://www.meacsports.com/">  Mid-Eastern</a></td >
+    <td ><a href="http://www.famuathletics.com/SportSelect.dbml?DB_OEM_ID=25300&amp;SPID=80913&amp;SPSID=606596"> Women's Tennis</a></td >
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td ><a href="http://www.famuathletics.com/SportSelect.dbml?&amp;DB_OEM_ID=25300&amp;SPID=80913&amp;SPSID=619171"> Rochelle Goldthreate</a></td >
+    <td ><a href="http://www.famuathletics.com/SportSelect.dbml?&amp;DB_OEM_ID=25300&amp;SPID=80912&amp;SPSID=606587"> Men's Tennis</a></td >
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td ss:Index="12" ><a href="http://www.famuathletics.com/SportSelect.dbml?&amp;DB_OEM_ID=25300&amp;SPID=80912&amp;SPSID=606593"> Carl Goodman</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.fit.edu/"> Florida Institute of Technology (Florida Tech)</a></td >
+    <td > Melbourne</td >
+    <td > D2</td >
+    <td ><a href="http://www.sunshinestateconference.com/">  Sunshine State</a></td >
+    <td ><a href="http://www.floridatechsports.com/wtennis/">  Women's Tennis</a></td >
+    <td > 12</td >
+    <td > 2</td >
+    <td ><a href="http://www.floridatechsports.com/wtennis/coaches/152/539/">  Bill Macom</a></td >
+    <td ><a href="http://www.floridatechsports.com/mtennis/default/">  Men's Tennis</a></td >
+    <td > 16</td >
+    <td > 2</td >
+    <td ><a href="http://www.floridatechsports.com/mtennis/coaches/151/539/">  Bill Macom</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.fiu.edu/"> Florida International University (FIU)</a></td >
+    <td > Miami</td >
+    <td > D1</td >
+    <td ><a href="http://www.sunbeltsports.org/">  Sunbelt</a></td >
+    <td ><a href="http://www.fiusports.com/Sports/WomensSports/Tennis.aspx"> Women's Tennis</a></td >
+    <td > 5</td >
+    <td > 2</td >
+    <td ><a href="http://www.fiusports.com/InsideAthletics/About/AdminStaffDirectory/KatarinaPetrovic.aspx"> Katarina Petrovic</a></td >
+    <td > None</td >
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+   </tr>
+   <tr>
+    <td ><a href="https://www.flsouthern.edu/">  Florida Southern College</a></td>
+    <td > Lakeland</td >
+    <td > D2</td >
+    <td ><a href="http://www.sunshinestateconference.com/">   Sunshine State</a></td >
+    <td ><a href="http://www.fscmocs.com/sport.asp?sportID=25">   Women's Tennis</a></td >
+    <td > 12</td >
+    <td > 1</td >
+    <td ><a href="http://www.fscmocs.com/profile.asp?playerID=276">     Trish Riddell</a></td >
+    <td ><a href="http://www.fscmocs.com/sport.asp?sportID=24">     Men's Tennis</a></td >
+    <td > 14</td >
+    <td > 0</td >
+    <td ><a href="http://www.fscmocs.com/profile.asp?playerID=275">   Trey Heath</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.fscj.edu/"> Florida State College at Jacksonville</a></td >
+    <td > Jacksonville</td >
+    <td > NJCAA</td >
+    <td>&nbsp;</td>
+    <td ><a href="http://www.gobluewave.com/womens-tennis/index.php">  Women's Tennis</a></td >
+    <td > 8</td >
+    <td > 0</td >
+    <td>&nbsp;</td>
+    <td > None</td >
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+   </tr>
+   <tr>
+    <td ><a href="http://www.fsu.edu/"> Florida State University (FSU)</a></td >
+    <td > Tallahassee</td >
+    <td > D1</td >
+    <td ><a href="http://www.theacc.com/"> Atlantic Coast</a></td >
+    <td ><a href="http://www.seminoles.com/sports/w-tennis/fsu-w-tennis-body.html">     Women's Tennis</a></td >
+    <td > 7</td >
+    <td > 2</td >
+    <td ><a href="http://www.seminoles.com/sports/w-tennis/mtt/hyde_jennifer00.html">  Jennifer Hyde</a></td >
+    <td ><a href="http://www.seminoles.com/sports/m-tennis/fsu-m-tennis-body.html"> Men's Tennis</a></td >
+    <td > 9</td >
+    <td > 2</td >
+    <td ><a href="http://www.fansonly.com/schools/fsu/sports/m-tennis/mtt/hultquist_dwayne00.html"> Dwayne Hultquist</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.hccfl.edu/"> Hillsborough Community College</a></td>
+    <td > Tampa</td >
+    <td > NJCAA</td >
+    <td>&nbsp;</td>
+    <td><a href="http://www.hccfl.edu/athletics/tennis.aspx">      Women's Tennis</a></td >
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><a href="http://www.hccfl.edu/athletics/tennis/contact-coach.aspx">  Shaimaa Elsisi</a></td >
+    <td > None</td >
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+   </tr>
+   <tr>
+    <td ><a href="http://www.lynn.edu/"> Lynn University</a></td>
+    <td > Boca Raton</td >
+    <td > D2</td >
+    <td ><a href="http://www.sunshinestateconference.com/"> Sunshine State</a></td >
+    <td ><a href="http://www.lynnfightingknights.com/sports/tennis-women">  Women's Tennis</a></td >
+    <td > 7</td >
+    <td > 0</td >
+    <td ><a href="http://www.lynnfightingknights.com/inside-athletics/people/MPerez">  Mike Perez</a></td >
+    <td ><a href="http://www.lynnfightingknights.com/sports/tennis-men"> Men's Tennis</a></td >
+    <td > 11</td >
+    <td > 3</td >
+    <td ><a href="http://www.lynnfightingknights.com/inside-athletics/people/MPerez"> Mike Perez</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://keiseruniversity.edu"> Keiser University</a></td>
+    <td > Lake Wales</td >
+    <td > NAIA</td >
+    <td ><a href="http://www.thesunconference.com/"> The Sun</a></td >
+    <td ><a href="http://www.kuseahawks.com/index.aspx?path=wten"> Women's Tennis</a></td >
+    <td > 7</td >
+    <td>&nbsp;</td>
+    <td ><a href="http://www.kuseahawks.com/coaches.aspx?rc=50"> Daniel Finn</a></td >
+    <td ><a href="http://www.kuseahawks.com/index.aspx?path=mten"> Men's Tennis</a></td >
+    <td > 7</td >
+    <td>&nbsp;</td>
+    <td><a href="http://www.kuseahawks.com/coaches.aspx?rc=50"> Daniel Finn</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.nova.edu/"> Nova Southeastern University</a></td>
+    <td > Fort Lauderdale</td >
+    <td > D2</td >
+    <td ><a href="http://www.sunshinestateconference.com/">  Sunshine State</a></td >
+    <td ><a href="http://www.nsusharks.com/index.aspx?tab=tennis&amp;path=wten"> Women's Tennis</a></td >
+    <td > 10</td >
+    <td > 1</td >
+    <td ><a href="http://www.nsusharks.com/coaches.aspx?path=wten&amp;"> Michael Coleman</a></td >
+    <td > None</td >
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+   </tr>
+   <tr>
+    <td ><a href="http://www.pba.edu/"> Palm Beach Atlantic</a></td >
+    <td > West Palm Beach</td >
+    <td > D2</td >
+    <td > Independent</td >
+    <td ><a href="http://pbasailfish.com/sport.asp?sportID=24"> Women's Tennis</a></td >
+    <td > 9</td >
+    <td > 2</td >
+    <td ><a href="http://pbasailfish.com/profile.asp?playerID=178"> Chi Ly</a></td >
+    <td ><a href="http://pbasailfish.com/sport.asp?sportID=12"> Men's Tennis</a></td >
+    <td > 9</td >
+    <td > 0</td >
+    <td ><a href="http://pbasailfish.com/profile.asp?playerID=178">  Chi Ly</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://rollins.edu/"> Rollins College</a></td>
+    <td > Winter Park</td >
+    <td > D2</td >
+    <td ><a href="http://www.sunshinestateconference.com/">     Sunshine State</a></td >
+    <td ><a href="http://www.rollinssports.com/SportSelect.dbml?&amp;DB_OEM_ID=19500&amp;SPID=11249&amp;SPSID=92628">  Women's Tennis</a></td >
+    <td > 10</td >
+    <td > 1</td > 
+    <td ><a href="http://www.rollinssports.com/ViewArticle.dbml?SPSID=107510&amp;SPID=11249&amp;DB_LANG=C&amp;DB_OEM_ID=19500&amp;ATCLID=1550101&amp;Q_SEASON=2012"> Beverly Buckley</a></td >
+    <td ><a href="http://www.rollinssports.com/SportSelect.dbml?&amp;DB_OEM_ID=19500&amp;SPID=11248&amp;SPSID=92619">   Men's Tennis</a></td >
+    <td > 14</td >
+    <td > 1</td >
+    <td ><a href="http://www.rollinssports.com/ViewArticle.dbml?SPSID=107511&amp;SPID=11248&amp;DB_LANG=C&amp;DB_OEM_ID=19500&amp;ATCLID=1550107&amp;Q_SEASON=2012"> Ron Bohrnstedt</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.spcollege.edu/">   Saint Petersburg College</a></td>
+    <td > Saint Petersburg</td >
+    <td > NJCAA </td >
+    <td>&nbsp;</td>
+    <td><a href="https://www.spcollege.edu/pages/athletics.aspx?id=2147483731">   Women's Tennis</a></td >
+    <td > 6</td >
+    <td > 0</td >
+    <td><a href="https://www.spcollege.edu/pages/athletics.aspx?id=2147483732">    Phil Girardi</a></td >
+    <td > None</td >
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+   </tr>
+   <tr>
+    <td ><a href="http://www.saintleo.edu/">     Saint Leo University</a></td>
+    <td > Saint Leo</td >
+    <td > D2</td >
+    <td ><a href="http://www.sunshinestateconference.com/">     Sunshine State</a></td >
+    <td ><a href="http://www.saintleolions.com/sports/wten/2012-13/roster">      Women's Tennis</a></td >
+    <td > 8</td >
+    <td > 3</td >
+    <td ><a href="http://www.saintleolions.com/sports/mten/coaches/index">      James Bryce</a></td >
+    <td ><a href="http://www.saintleolions.com/sports/mten/index">      Men's Tennis</a></td >
+    <td > 11</td >
+    <td > 2</td >
+    <td ><a href="http://www.saintleolions.com/sports/mten/coaches/index">      James Bryce</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.stu.edu/Default.aspx">      Saint Thomas University</a></td>
+    <td > Miami Gardens</td >
+    <td > NAIA</td >
+    <td ><a href="http://www.thesunconference.com/">      The Sun</a></td >
+    <td ><a href="http://www.stubobcats.com/index.aspx?path=wten&amp;tab=tennis2"> Women's Tennis</a></td >
+    <td > 7</td >
+    <td > 1</td >
+    <td ><a href="http://www.stubobcats.com/coaches.aspx?rc=211&amp;path=wten"> Bruce Carrington</a></td >
+    <td ><a href="http://www.stubobcats.com/index.aspx?path=mten&amp;tab=tennis">      Men's Tennis</a></td >
+    <td > 12</td >
+    <td > 0</td >
+    <td ><a href="http://www.stubobcats.com/coaches.aspx?rc=211&amp;path=wten">      Bruce Carrington</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.seu.edu/"> Southeastern University</a></td>
+    <td > Lakeland</td >
+    <td > D2</td >
+    <td ><a href="http://www.thesunconference.com/"> The Sun</a></td >
+    <td ><a href="http://www.seufire.com/roster.asp?sportID=21">  Women's Tennis</a></td >
+    <td > 9</td >
+    <td > 0</td >
+    <td ><a href="http://www.seufire.com/profile.asp?playerID=287"> Bill May</a></td >
+    <td ><a href="http://www.seufire.com/sport.asp?sportID=20">  Men's Tennis</a></td >
+    <td > 9</td >
+    <td > 0</td >
+    <td ><a href="http://www.seufire.com/profile.asp?playerID=287">  Bill May</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.scf.edu/"> State College of Florida</a></td>
+    <td > Bradenton</td >
+    <td>NJCAA</td>
+    <td > &nbsp;</td >
+    <td ><a href="http://scfmanatees.com/sports/wten/index"> Women's Tennis</a></td >
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><a href="http://scfmanatees.com/sports/wten/coaches/betsymccormack"> Betsy McCormack</a></td >
+    <td > None</td >
+    <td>&nbsp;</td>
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td>    
+   </tr>
+   <tr>
+    <td ><a href="http://www.stetson.edu/home/"> Stetson University</a></td>
+    <td > Deland</td >
+    <td > D1</td >
+    <td ><a href="http://www.atlanticsun.org/">  Atlantic Sun</a></td >
+    <td ><a href="http://www.gohatters.com/SportSelect.dbml?DB_OEM_ID=14600&amp;SPID=6737&amp;SPSID=69249"> Women's Tennis</a></td >
+    <td > 11</td >
+    <td > 3</td >
+    <td ><a href="http://www.gohatters.com/SportSelect.dbml?&amp;DB_OEM_ID=14600&amp;SPID=6733&amp;SPSID=61793"> Pierre Pilote</a></td >
+    <td ><a href="http://www.gohatters.com/SportSelect.dbml?&amp;DB_OEM_ID=14600&amp;SPID=6733&amp;SPSID=69244"> Men's Tennis</a></td >
+    <td > 9</td >
+    <td > 2</td >
+    <td ><a href="http://www.gohatters.com/SportSelect.dbml?&amp;DB_OEM_ID=14600&amp;SPID=6733&amp;SPSID=61793"> Pierre Pilote</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.ucf.edu/"> University of Central Florida</a></td>
+    <td > Orlando</td >
+    <td > D1</td >    <td ><a href="http://www.conferenceusa.com/">
+      Conference USA</a></td >
+    <td ><a href="http://www.ucfathletics.com/sports/w-tennis/ucf-w-tennis-body.html"> Women's Tennis</a></td >
+    <td > 10</td >
+    <td > 2</td >
+    <td ><a href="http://www.fansonly.com/schools/ucf/sports/w-tennis/mtt/nickitas_stephanie00.html"> Stephanie Nickitas</a></td >
+    <td ><a href="http://www.ucfathletics.com/sports/m-tennis/ucf-m-tennis-body.html"> Men's Tennis</a></td >
+    <td > 7</td >
+    <td > 3</td >
+    <td ><a href="http://www.fansonly.com/schools/ucf/sports/m-tennis/mtt/cashman_bobby00.html"> Bobby Cashman</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.ufl.edu/"> University of Florida</a></td>
+    <td > Gainesville</td >
+    <td > D1</td >
+    <td ><a href="http://www.secdigitalnetwork.com/SECSPORTS/SPORTS/TENNIS.aspx"> Southeastern</a></td >
+    <td ><a href="http://www.gatorzone.com/tennis/women/">      Women's Tennis</a></td >
+    <td > 7</td >
+    <td > 2</td >
+    <td ><a href="http://www.gatorzone.com/tennis/women/staff/thornqvist">      Roland Thornqvist</a></td >
+    <td ><a href="http://www.gatorzone.com/tennis/men/">      Men's Tennis</a></td >
+    <td > 8</td >
+    <td > 2</td >
+    <td ><a href="http://www.gatorzone.com/tennis/men/staff/shelton" > Bryan Shelton</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.miami.edu/"> University of Miami</a></td >
+    <td > Miami</td >
+    <td > D1</td >
+    <td ><a href="http://www.theacc.com/"> Atlantic Coast</a></td >
+    <td ><a href="http://www.hurricanesports.com/SportSelect.dbml?DB_OEM_ID=28700&amp;SPID=103772&amp;SPSID=658416">  Women's Tennis</a></td >
+    <td > 8</td >
+    <td > 0</td >
+    <td ><a href="http://www.hurricanesports.com/ViewArticle.dbml?SPSID=668506&amp;SPID=103772&amp;DB_LANG=C&amp;DB_OEM_ID=28700&amp;ATCLID=205554609&amp;Q_SEASON=2012">
+      Paige Yaroshuk-Tews</a></td >
+    <td ><a href="http://www.hurricanesports.com/SportSelect.dbml?&amp;DB_OEM_ID=28700&amp;SPID=103771&amp;SPSID=658407">  Men's Tennis</a></td >
+    <td > 9</td >
+    <td > 2</td >
+    <td ><a href="http://www.hurricanesports.com/ViewArticle.dbml?SPSID=658413&amp;SPID=103771&amp;DB_LANG=C&amp;DB_OEM_ID=28700&amp;ATCLID=205557470&amp;Q_SEASON=2012">  Mario Rincon</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.unf.edu/"> University of North Florida</a></td>
+    <td > Jacksonville</td >
+    <td > D1</td >
+    <td ><a href="http://www.atlanticsun.org/"> Atlantic Sun</a></td >
+    <td ><a href="http://www.unfospreys.com/index.aspx?path=wten"> Women's Tennis</a></td >
+    <td > 7</td >
+    <td > 2</td >
+    <td ><a href="http://www.unfospreys.com/coaches.aspx?rc=438&amp;path=wten">  Audra Cohen</a></td >
+    <td ><a href="http://www.unfospreys.com/index.aspx?path=mten&amp;tab=tennis">  Men's Tennis</a></td >
+    <td > 11</td >
+    <td > 4</td >
+    <td ><a href="http://www.unfospreys.com/coaches.aspx?rc=408&amp;path=mten">    Adam Schaechterle</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.usf.edu/"> Universith of South Florida</a></td>
+    <td > Tampa</td >
+    <td > D1</td >
+    <td ><a href="http://www.bigeast.org/Sports/Tennis.aspx">
+      Big East</a></td >
+    <td ><a href="http://www.gousfbulls.com/SportSelect.dbml?DB_OEM_ID=7700&amp;SPID=2918&amp;SPSID=36649">   Women's Tennis</a></td >
+    <td > 9</td >
+    <td > 1</td >
+    <td><a href="http://www.gousfbulls.com/ViewArticle.dbml?SPSID=36650&amp;SPID=2918&amp;DB_LANG=C&amp;DB_OEM_ID=7700&amp;ATCLID=220430&amp;Q_SEASON=2012">
+      Agustin Moreno</a></td >
+    <td ><a href="http://www.gousfbulls.com/SportSelect.dbml?&amp;DB_OEM_ID=7700&amp;SPID=2931&amp;SPSID=36744">Men's Tennis</a></td >
+    <td > 7</td >
+    <td > 2</td >
+    <td ><a href="http://www.gousfbulls.com/ViewArticle.dbml?SPSID=36745&amp;SPID=2931&amp;DB_LANG=C&amp;DB_OEM_ID=7700&amp;ATCLID=205503266&amp;Q_SEASON=2012"> Matt Hill</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.ut.edu/"> University of Tampa</a></td >
+    <td > Tampa</td >
+    <td > D2</td >
+    <td ><a href="http://www.sunshinestateconference.com/">      Sunshine State</a></td >
+    <td ><a href="http://tampaspartans.com/sport.asp?sportID=25">   Women's Tennis</a></td >
+    <td > 12</td >
+    <td > 1</td >
+    <td ><a href="http://tampaspartans.com/profile.asp?playerID=209">  Al Dufaux</a></td >
+    <td > None</td >
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+   </tr>
+   <tr>
+    <td ><a href="http://uwf.edu/"> University of West Florida</a></td>
+    <td > Pensacola</td >
+    <td > D2</td >
+    <td ><a href="http://www.gulfsouthconference.org/">   Gulf South</a></td >
+    <td ><a href="http://www.goargos.com/sport.asp?sportID=22">   Women's Tennis</a></td >
+    <td > 6</td >
+    <td > 3</td >
+    <td ><a href="http://www.goargos.com/profile.asp?playerID=818">   Derrick Racine</a></td >
+    <td ><a href="http://www.goargos.com/sport.asp?sportID=21">   Men's Tennis</a></td >
+    <td > 10</td >
+    <td > 2</td >
+    <td ><a href="http://www.goargos.com/profile.asp?playerID=818">   Derrick Racine</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.warner.edu/"> Warner University</a></td>
+    <td > Lake Wales</td >
+    <td > NAIA</td >
+    <td ><a href="http://www.thesunconference.com/">  The Sun</a></td >
+    <td ><a href="http://www.warnerroyals.com/index.aspx?tab=_tennis&amp;path=wten">  Women's Tennis</a></td >
+    <td > 6</td >
+    <td > 0</td >
+    <td ><a href="http://www.warnerroyals.com/coaches.aspx?rc=358&amp;path=mten">  Jose Martinez</a></td >
+    <td ><a href="http://www.warnerroyals.com/index.aspx?tab=tennis&amp;path=mten">  Men's Tennis</a></td >
+    <td > 10</td >
+    <td > 5</td >
+    <td ><a href="http://www.warnerroyals.com/coaches.aspx?rc=358&amp;path=mten"> Jose Martinez</a></td >
+   </tr>
+   <tr>
+    <td ><a href="http://www.webber.edu/"> Webber International University</a></td>
+    <td > Babson Park</a></td >
+    <td > NAIA</td >
+    <td ><a href="http://www.thesunconference.com/"> The Sun</a></td >
+    <td ><a href="http://www.webberathletics.com/index.aspx?tab=_tennis&amp;path=wten"> Women's Tennis</a></td >
+    <td > 10</td >
+    <td > 3</td >
+    <td ><a href="http://www.webberathletics.com/sports/2012/1/5/GEN_0105122324.aspx?path=wten"> Robert Hollis</a></td >
+    <td ><a href="http://www.webberathletics.com/index.aspx?tab=tennis&amp;path=mten"> Men's Tennis</a></td >
+    <td > 15</td >
+    <td > 2</td >
+    <td ><a href="http://www.webberathletics.com/sports/2012/1/5/GEN_0105122324.aspx?path=wten">  Robert Hollis</a></td >
+   </tr>
+   </tbody>
+  </table>
+<br/>
+<small>Composed by Dan Bailey November 2012</small>
+  
+  <script>
+
+  function getTable(){
+    var rows = document.querySelectorAll('table tr');
+        // Create an array to store the CSV data
+    var csvData = [];
+    // Loop through each row and extract the data
+    for (var i = 0; i < rows.length; i++) {
+        // Get all the cells in the row
+        var cells = rows[i].querySelectorAll('td, th');
+        // Create an array to store the row data
+        var rowData = [];
+        // Loop through each cell and add its text to the row data
+        for (var j = 0; j < cells.length; j++) {
+          rowData.push(cells[j].textContent.trim());
+        }
+        // Add the row data to the CSV data array
+        csvData.push(rowData);
+    }
+
+    console.log(csvData);
+
+    function arrayToCSV(data) {
+        return data.map(function(row) {
+            return row.join(',');
+        }).join('\n');
+    }
+
+    // Convert the CSV data array to a CSV string
+    var csvString = arrayToCSV(csvData);
+
+    console.log(csvString);
+
+    var downloadLink = document.createElement('a');
+    downloadLink.setAttribute('href', 'data:text/csv;charset=utf-8,' + encodeURIComponent(csvString));
+    downloadLink.setAttribute('download', 'table.csv');
+
+    // Append the download link to the document
+    document.body.appendChild(downloadLink);
+
+    // Trigger the download
+    downloadLink.click();
+
+    // Remove the download link from the document
+    document.body.removeChild(downloadLink);
+  }
+
+  </script>  
+
+<script>
+</script>
+</body>
+</html>
